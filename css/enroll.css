@@ -1,0 +1,48 @@
+.main-top{
+    margin: 60px 0 0px 0;
+    text-align: center;
+}
+.main-top span:nth-child(1){
+    font-size: 32px;
+    color: #191919;
+    display: block;
+  
+}
+.main-top span:nth-child(2){
+    font-size: 16px;
+    color: #191919;
+}
+.main-top a{
+    color: #007dff;
+    font-size: 16px;
+}
+.main-center{
+    width: 440px;
+    margin: 0 auto;
+}
+.main-center input[type="text"]{
+    width: 440px;
+    border: none;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    height: 48px;
+    text-indent: 2em;
+}
+.pla{
+    margin-bottom: 20px;
+}
+.main-center input[type="button"]{
+    border: 1px solid #ccc;
+    width: 276px;
+    height: 48px;
+    font-size: 18px;
+    background: #007dff;
+    cursor: pointer;
+    border-radius: 8px;
+    display: block;
+    margin-top: 20px;
+    margin: 0 auto;
+    color: #ffffff;
+    
+}

@@ -1,0 +1,65 @@
+/* 公共头部 */
+#header{
+    height: 48px;
+    min-width: 1200px;
+    background: rgba(0,0,0,0.05);
+}
+#header .logo{
+    height: 24px;
+    width: 108px;
+    padding-top: 12px;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.put{
+    float:left;
+    width: 1px;
+    height: 20px;
+    vertical-align: middle;
+    background: rgba(0,0,0,0.2);
+    margin: 14px 16px;
+}
+.header-right span{
+    color: #191919;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    float: left;
+    line-height: 1;
+    margin-top: 16px
+}
+/* 底部 */
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+     
+    
+      height: 110px;
+      background: rgba(0,0,0,0.05);
+  }
+  .agreement{
+      text-align: center;
+      padding-top: 30px;
+  }
+  .agreement p:nth-child(1){
+      line-height: 20px;
+      height: 20px;
+  }
+  .agreement p a{
+      font-size: 14px;
+      color: #000000;
+      padding:0 10px;
+      border-right: 1px solid  rgba(0,0,0,0.1);;
+  }
+  .agreement p:nth-child(2){
+      line-height: 12px;
+      height: 12px;
+      margin-top: 10px;
+      color: #000;
+      opacity: 0.3;
+     font-size: 14px;
+  }

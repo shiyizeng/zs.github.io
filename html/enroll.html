@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/enroll.css">
+</head>
+<body>
+     <!-- 头部 -->
+     <div id="header" >
+        <div class="common clearfix">
+        <div class="logo">
+            <a href="">
+                <img src="../img/HUAWEI.svg" alt="">
+             </a>
+        </div>
+        <div class="put"></div>
+        <div class="header-right"><span>华为商城</span></div>
+    </div>
+    </div>
+    <!-- 注册 -->
+   <div id="main" class="common">
+       <div class="main-top">
+           <span>华为账号注册</span>
+           <span>已有账号</span>
+           <a href="../html/register .html">去登录</a>
+        </div>
+           <div class="main-center">
+           <form action="">
+               <input type="text" placeholder="国家/地区">
+               <input type="text" placeholder="请输入手机号" class="phone">
+               <span>手机号必须是11位的数字</span>
+               <input type="text" placeholder=" 短信验证码">
+               <input type="text" placeholder="密码">
+               <span>密码必须是8-12的字母,数字或者特殊符号</span>
+               <input type="text" placeholder="确认密码">
+               <input type="text"  placeholder="出生日期" class="pla">
+               <input type="button" value="注册">
+           </form>
+       </div>
+       
+   </div>
+  <script src="../js/jquery1.12.4.min.js"></script>
+  <script>
+   $('.phone').oninput=function(){
+       var reg=/^\w{11}$/;
+       var the=$('.phone').val
+       if(reg.test(the)){
+           
+       }
+   }
+  </script>
+
+
+
+
+   
+
+
+
+
+
+     
+   
+</body>
+</html>

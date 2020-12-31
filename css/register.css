@@ -1,0 +1,175 @@
+
+#hwid{
+    height: 700px;
+}
+.hwid-top{
+    padding: 100px 0 80px;
+    text-align: center;
+}
+.hwid-top span{
+    font-size: 32px;
+}
+#sp{
+    height: 200px;
+    background: blue;
+}
+.hwid-center:nth-child(1){
+    display: inline-block;
+     width: 360px;
+     vertical-align: top;
+}
+.hwid-center{
+    text-align: center;
+}
+.hwid-center-code{
+    width: 360px;
+    border-radius: 8px;
+    display:inline-block;
+    vertical-align: top; 
+}
+.hwid-center-code .qrcode{
+    width: 200px;
+    height: 200px;
+    background: #F7F7F7;
+    margin: 0 auto;
+}
+.hwid-center-code .qrcode img{
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.hwid-center-code .scan{
+   margin-top: 50px;
+    color: #838383;
+}
+.hwid-line{
+    background: rgba(0,0,0,0.1);
+    margin: 0 60px;
+    width: 1px;
+    height: 300px;
+    display:inline-block; 
+    vertical-align: top;  
+}
+.hwid-center-impor{
+    display:inline-block; 
+    width: 360px;
+    height: 420px;
+    /* background: chartreuse; */
+}
+.hwid-center-impor .cell-phone{
+    width:328px;
+    height: 50px;
+    border: none;
+   border: 1px solid transparent; 
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 0 16px;
+}
+.hwid-center-impor form{
+    text-align: left;
+}
+.hwid-center-impor .password{
+    padding: 0 16px;
+    width:328px;
+    height: 50px;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.05);
+    margin-top: 26px;
+    margin-bottom: 16px;
+}
+.hwid-center-impor .code{
+    font-size: 14px;
+    color: #007dff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.hwid-center-impor .register{
+    width: 360px;
+    border-radius: 8px;
+    background: #CA141D;
+    margin-top: 40px;
+    padding: 12px 30px;
+    opacity: .38;
+    color: #ffffff;
+    font-size: 18px;
+}
+.hwid-full-link{
+    padding: 40px 0 0 0;
+}
+.hwid-full-link a{
+    padding: 0 15px;
+    border-right:1px solid #838383;
+    color: #007dff;
+    font-size: 16px;
+}
+.hwid-full-link a:nth-of-type(3){
+    border: 0;
+}
+.hwid-third-login-list{
+    padding: 30px 0 40px  0;
+}
+.hwid-third-login-list span{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin: 0 25px;
+    border-radius: 50%;
+   
+}
+.hwid-icon-third_qq{
+    background: url(../img/third_qq.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+.hwid-icon-third_qq:hover{
+    background: url(../img/third_qq_hover.svg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.hwid-icon-third_alipay {
+    background: url(../img/third_alipay.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+.hwid-icon-third_alipay:hover{
+    background: url(../img/third_alipay_hover.svg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.hwid-icon-third_weixin {
+    background: url(../img/third_weixin.svg) no-repeat;
+    background-position: 50%;
+    background-size: contain;
+}
+.hwid-icon-third_weixin:hover{
+    background: url(../img/third_weixin_hover.svg) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+/* 底部广告 */
+#footer-box{
+    position: fixed;
+    height: 48px;
+    width: 100%;
+    line-height: 48px;
+    text-align: center;
+    bottom: 0;
+    font-size: 14px;
+    opacity: .9;
+    background: #dedede;
+}
+#footer-box span a{
+    color: #067ffe;
+}
+.box-close{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 16px;
+    background: url(../img/下载.png)no-repeat;
+    background-size: 14px 14px;
+}
